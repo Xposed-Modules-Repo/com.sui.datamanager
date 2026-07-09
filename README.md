@@ -283,4 +283,4 @@ Patching the virtual space application itself can be to access all new data of t
 
 All Rights Reserved (Proprietary)
 
-See [`LICENSE`](./LICENSE) for full details.
+See [`LICENSE`](./LICENSE.md) for full details.
