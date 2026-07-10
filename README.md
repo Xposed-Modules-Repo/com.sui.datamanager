@@ -6,7 +6,7 @@ DataManager is an LSPosed / LSPatch-compatible module that injects a floating fi
 
 It allows you to browse, preview, import, export, replace, back up, restore, rename, and safely delete files inside the target application's private data directory.
 
-The module operates inside the target app process, so private app data can be accessed without requiring such as root, shizuku, sui, adb permissions.
+The module operates inside the target app process, so private app data can be accessed without requiring root, Shizuku, Sui, or ADB permissions.
 
 Library: [Sui9x/PrivateDataManagerLibrary](https://github.com/Sui9x/PrivateDataManagerLibrary)
 
@@ -50,7 +50,7 @@ DataManager is designed for:
 - LSPatch
 - NPatch-compatible environments
 
-Behavior may differ depending on the Android version, ROM, target application, and patching framework.
+In theory, it should work with most applications. However, compatibility with every ROM, app, or patching framework is not guaranteed.
 
 ## How it works
 
@@ -277,7 +277,7 @@ Test carefully before using it with important application data.
 
 ## Tips
 
-Patching the virtual space application itself can be to access all new data of the cloned application within that virtual space.
+Patching the virtual-space host application itself may allow DataManager to access the private data of cloned applications managed inside that virtual space.
 
 ## License
 
