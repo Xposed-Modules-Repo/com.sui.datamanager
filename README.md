@@ -283,4 +283,4 @@ Patching the virtual-space host application itself may allow DataManager to acce
 
 All Rights Reserved (Proprietary)
 
-See [`LICENSE`](./LICENSE.md) for full details.
+See [`LICENSE`](https://github.com/Xposed-Modules-Repo/com.sui.datamanager/blob/main/LICENSE.md) for full details.
